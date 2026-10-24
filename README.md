@@ -1,6 +1,6 @@
 # Portafolio de Robie Sánez
 
-Trabajo de HTML5 y CSS3. El sitio es estático: no usa JavaScript ni un servidor.
+Trabajo de HTML5 y CSS3.
 
 ## Enlaces de la entrega
 
