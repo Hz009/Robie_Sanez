@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robie Sánez | Portafolio personal</title>
+  <meta name="description" content="Portafolio personal de Robie Sánez, en Sevilla. Director of Support en LinguaMeeting y estudiante de desarrollo web en MasterD.">
+  <meta name="author" content="Robie Sánez">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <header class="cabecera">
+    <div class="contenedor cabecera-interior">
+      <a class="marca" href="index.html">
+        <img src="images/logo-hs.svg" width="48" height="48" alt="Logotipo con las iniciales HS">
+        <span>Robie Sánez</span>
+      </a>
+      <input class="check-menu" type="checkbox" id="check-menu">
+      <label class="label-check" for="check-menu">
+        <img src="images/icono-menu.svg" width="32" height="32" alt="Abrir o cerrar el menú">
+      </label>
+      <nav class="nav-principal">
+        <ul class="nav-links">
+          <li><a class="activa" href="index.html" aria-current="page">Inicio</a></li>
+          <li><a href="views/portfolio.html">Prácticas</a></li>
+          <li><a href="views/presupuesto.html">Solicitar información</a></li>
+          <li><a href="views/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="presentacion">
+      <div class="contenedor">
+        <p class="etiqueta">MasterD · HTML y CSS</p>
+        <h1>Robie Sánez</h1>
+        <p class="texto">Vivo en Sevilla. Desde 2020 trabajo en LinguaMeeting como Director of Support. Estudié Administración de Empresas en la UPC, en Perú, y ahora estudio páginas web en MasterD.</p>
+        <ul class="atajos">
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#aprendiendo">Qué estoy aprendiendo</a></li>
+          <li><a href="#trayectoria">Mi trayectoria</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="sobre-mi">
+      <div class="contenedor">
+        <h2>Sobre mí</h2>
+        <div class="sobre">
+          <figure class="retrato">
+            <img src="images/robie-linguameeting.png" width="228" height="275" alt="Robie Sánez, sentado, con gafas y una camisa de cuadros.">
+            <figcaption>Este soy yo</figcaption>
+          </figure>
+          <div>
+            <p class="texto">Me llamo Robie Sánez y vivo en Sevilla. Estudié Administración de Empresas en la Universidad Peruana de Ciencias Aplicadas (UPC), en Perú. El bachiller de allí es el título de la universidad, no el bachillerato de aquí.</p>
+            <p class="texto">En LinguaMeeting estoy desde 2020. Llevo el soporte y la coordinación, y cuando un proceso se puede dejar más simple, lo retoco. Si algo se atasca, lo sigo hasta cerrarlo.</p>
+            <p class="texto">En MasterD hago el Curso Superior en programación de páginas web. Voy por HTML y CSS. Esta web es el trabajo del curso.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fondo-arena" id="aprendiendo">
+      <div class="contenedor">
+        <h2>Qué estoy aprendiendo</h2>
+        <p class="texto">Esto es lo que voy usando para montar las páginas. Lo dejé junto en la <a href="views/portfolio.html">galería</a>.</p>
+        <ul class="lista-estudio texto">
+          <li>La estructura de la página: cabecera, menú, contenido y pie.</li>
+          <li>Textos, listas, enlaces e imágenes, con rutas relativas.</li>
+          <li>El CSS fuera del HTML: letras, colores, fondos y bordes.</li>
+          <li>Flexbox y Grid para colocar las cosas, y media queries para el móvil y el ordenador.</li>
+          <li>Formularios que valida el navegador, y un poco de accesibilidad y SEO.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="trayectoria">
+      <div class="contenedor">
+        <h2>Mi trayectoria</h2>
+        <div class="trayectoria">
+          <article class="paso">
+            <h3>Grado de bachiller en Administración de Empresas</h3>
+            <p>Universidad Peruana de Ciencias Aplicadas (UPC), en Perú. Me quedó la costumbre de ordenar la información y de seguir un proceso desde el principio.</p>
+          </article>
+          <article class="paso">
+            <h3>Director of Support en LinguaMeeting</h3>
+            <p>Desde 2020. Soporte, coordinación y mejora de procesos. Si algo se atasca, hago el seguimiento hasta dejarlo resuelto.</p>
+          </article>
+          <article class="paso">
+            <h3>Estudios de desarrollo web en MasterD</h3>
+            <p>Curso Superior en programación de páginas web. Ahora voy por HTML y CSS, y esta web entra en eso. Si quieres preguntarme algo, usa el formulario de <a href="views/presupuesto.html">solicitar información</a>.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor pie-contenido">
+      <p>Sevilla, España</p>
+      <p><a href="views/contacto.html#aviso-legal">Aviso legal y privacidad</a></p>
+      <ul class="redes">
+        <li>
+          <a href="https://www.linkedin.com/in/robie-sanez" target="_blank" rel="noopener">
+            <img src="images/icono-linkedin.svg" width="24" height="24" alt="LinkedIn de Robie Sánez">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/Robiesanez/" target="_blank" rel="noopener">
+            <img src="images/icono-instagram.svg" width="24" height="24" alt="Instagram de Robie Sánez">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

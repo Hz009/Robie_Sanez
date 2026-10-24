@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prácticas | Robie Sánez</title>
+  <meta name="description" content="Prácticas académicas de HTML y CSS de Robie Sánez en MasterD: estructura, texto, formularios, color, Flexbox y Grid.">
+  <meta name="author" content="Robie Sánez">
+  <link rel="icon" href="../images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <header class="cabecera">
+    <div class="contenedor cabecera-interior">
+      <a class="marca" href="../index.html">
+        <img src="../images/logo-hs.svg" width="48" height="48" alt="Logotipo con las iniciales HS">
+        <span>Robie Sánez</span>
+      </a>
+      <input class="check-menu" type="checkbox" id="check-menu">
+      <label class="label-check" for="check-menu">
+        <img src="../images/icono-menu.svg" width="32" height="32" alt="Abrir o cerrar el menú">
+      </label>
+      <nav class="nav-principal">
+        <ul class="nav-links">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a class="activa" href="portfolio.html" aria-current="page">Prácticas</a></li>
+          <li><a href="presupuesto.html">Solicitar información</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section>
+      <div class="contenedor">
+        <p class="etiqueta">Clase de MasterD</p>
+        <h1>Prácticas de HTML y CSS</h1>
+        <p class="texto">Ejercicios de clase. No son encargos de clientes ni páginas que haya publicado por mi cuenta.</p>
+        <ul class="galeria">
+          <li>
+            <article class="tarjeta">
+              <img src="../images/practicas/estructura.svg" width="640" height="400" alt="Esquema de una página en tres bandas: cabecera, contenido y pie.">
+              <div class="tarjeta-cuerpo">
+                <p class="etiqueta">Práctica académica</p>
+                <h2>Estructura semántica</h2>
+                <p>Cabecera, menú, contenido y pie. Cada parte con la etiqueta que le toca.</p>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="tarjeta">
+              <img src="../images/practicas/texto.svg" width="640" height="400" alt="Esquema de un título, varias líneas de texto y una lista.">
+              <div class="tarjeta-cuerpo">
+                <p class="etiqueta">Práctica académica</p>
+                <h2>Texto, listas y enlaces</h2>
+                <p>Títulos, listas y enlaces entre páginas. Las rutas son relativas, para que no se rompan al publicar.</p>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="tarjeta">
+              <img src="../images/practicas/formulario.svg" width="640" height="400" alt="Esquema de tres campos de formulario y un botón.">
+              <div class="tarjeta-cuerpo">
+                <p class="etiqueta">Práctica académica</p>
+                <h2>Formulario con validación</h2>
+                <p>Campos obligatorios, el tipo email, el tipo tel y la casilla que hay que marcar. Lo comprueba el navegador, sin JavaScript.</p>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="tarjeta">
+              <img src="../images/practicas/color.svg" width="640" height="400" alt="Tres círculos con los colores petróleo, terracota y arena.">
+              <div class="tarjeta-cuerpo">
+                <p class="etiqueta">Práctica académica</p>
+                <h2>Color, fondos y bordes</h2>
+                <p>Petróleo, terracota y arena. Con eso pinto esta web: fondos, bordes y el contraste del texto.</p>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="tarjeta">
+              <img src="../images/practicas/flexbox.svg" width="640" height="400" alt="Tres rectángulos alineados en una fila con espacio entre ellos.">
+              <div class="tarjeta-cuerpo">
+                <p class="etiqueta">Práctica académica</p>
+                <h2>Alineación con Flexbox</h2>
+                <p>Fila o columna, centrar y separar. La cabecera y el pie de estas páginas van con Flexbox.</p>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="tarjeta">
+              <img src="../images/practicas/grid.svg" width="640" height="400" alt="Cuadrícula de seis celdas, con la última marcada en terracota.">
+              <div class="tarjeta-cuerpo">
+                <p class="etiqueta">Práctica académica</p>
+                <h2>Grid y media queries</h2>
+                <p>La cuadrícula cambia con el ancho de la pantalla. Esta galería: una columna en el móvil, dos en la tableta y tres en el ordenador.</p>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor pie-contenido">
+      <p>Sevilla, España</p>
+      <p><a href="contacto.html#aviso-legal">Aviso legal y privacidad</a></p>
+      <ul class="redes">
+        <li>
+          <a href="https://www.linkedin.com/in/robie-sanez" target="_blank" rel="noopener">
+            <img src="../images/icono-linkedin.svg" width="24" height="24" alt="LinkedIn de Robie Sánez">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/Robiesanez/" target="_blank" rel="noopener">
+            <img src="../images/icono-instagram.svg" width="24" height="24" alt="Instagram de Robie Sánez">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

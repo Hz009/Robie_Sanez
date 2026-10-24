@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solicitar información | Robie Sánez</title>
+  <meta name="description" content="Formulario para solicitar información a Robie Sánez. Maqueta estática: el mensaje no se envía ni se guarda.">
+  <meta name="author" content="Robie Sánez">
+  <link rel="icon" href="../images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <header class="cabecera">
+    <div class="contenedor cabecera-interior">
+      <a class="marca" href="../index.html">
+        <img src="../images/logo-hs.svg" width="48" height="48" alt="Logotipo con las iniciales HS">
+        <span>Robie Sánez</span>
+      </a>
+      <input class="check-menu" type="checkbox" id="check-menu">
+      <label class="label-check" for="check-menu">
+        <img src="../images/icono-menu.svg" width="32" height="32" alt="Abrir o cerrar el menú">
+      </label>
+      <nav class="nav-principal">
+        <ul class="nav-links">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="portfolio.html">Prácticas</a></li>
+          <li><a class="activa" href="presupuesto.html" aria-current="page">Solicitar información</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section>
+      <div class="contenedor">
+        <p class="etiqueta">Formulario</p>
+        <h1>Solicitar información</h1>
+        <p class="texto">El archivo se llama presupuesto.html porque así lo pide el trabajo. Puedes preguntarme por mi perfil o por lo que estoy estudiando. Presupuestos de páginas web no hago.</p>
+
+        <h2>Qué te puedo contar</h2>
+        <ul class="lista-estudio texto">
+          <li>El trabajo en LinguaMeeting: soporte, coordinación y procesos.</li>
+          <li>Lo que llevo de MasterD, HTML y CSS.</li>
+          <li>El correo y el teléfono, en la página de contacto.</li>
+        </ul>
+
+        <h2>El formulario</h2>
+        <form class="formulario" method="get" action="presupuesto.html">
+          <fieldset>
+            <legend>Datos para solicitar información</legend>
+            <p>Todos los campos son obligatorios.</p>
+
+            <div class="campo">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" autocomplete="name" placeholder="Tu nombre" required>
+            </div>
+
+            <div class="campo">
+              <label for="correo">Correo electrónico</label>
+              <input type="email" id="correo" name="correo" autocomplete="email" placeholder="nombre@correo.com" required>
+            </div>
+
+            <div class="campo">
+              <label for="telefono">Teléfono</label>
+              <input type="tel" id="telefono" name="telefono" autocomplete="tel" placeholder="Tu teléfono" required>
+            </div>
+
+            <div class="campo">
+              <label for="mensaje">Solicitud de información</label>
+              <textarea id="mensaje" name="mensaje" placeholder="Qué quieres preguntarme" required></textarea>
+            </div>
+
+            <div class="campo-check">
+              <input type="checkbox" id="privacidad" name="privacidad" value="aceptada" required>
+              <label for="privacidad">He leído el aviso de privacidad.</label>
+            </div>
+
+            <button class="boton" type="submit">Enviar solicitud</button>
+            <p>Si pulsas, solo se comprueba el formulario. El mensaje no me llega.</p>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor pie-contenido">
+      <p>Sevilla, España</p>
+      <p><a href="contacto.html#aviso-legal">Aviso legal y privacidad</a></p>
+      <ul class="redes">
+        <li>
+          <a href="https://www.linkedin.com/in/robie-sanez" target="_blank" rel="noopener">
+            <img src="../images/icono-linkedin.svg" width="24" height="24" alt="LinkedIn de Robie Sánez">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/Robiesanez/" target="_blank" rel="noopener">
+            <img src="../images/icono-instagram.svg" width="24" height="24" alt="Instagram de Robie Sánez">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
